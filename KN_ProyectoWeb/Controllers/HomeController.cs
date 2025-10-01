@@ -12,5 +12,12 @@ namespace KN_ProyectoWeb.Controllers
         {
             return View();
         }
+
+
+        public ActionResult Principal()
+        {
+            return View();
+        }
+  
     }
 }
