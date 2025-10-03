@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "RecuperarAcceso";
+    Layout = "~/Views/Shared/_LayoutExterno.cshtml";
+}
+        <div class="authentication-wrapper authentication-basic container-p-y">
+            <div class="authentication-inner py-4">
+                <div class="card">
+                    <div class="card-body">
+                         <div class="app-brand justify-content-center">
+                            <a href="index.html" class="app-brand-link gap-2">
+                                <img src="~/StaticFiles/img/logo.png" />
+                                <span class="app-brand-text demo text-body fw-bolder">Recuperar Acceso</span>
+                            </a>
+                        </div>
+       
+                        <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electronico</label>
+                                <input type="email" class="form-control" id="email"name="email" />
+                            </div>
+                            <button class="btn btn-primary d-grid w-100">Procesar</button>
+                        </form>
+                        <div class="text-center">
+                            <a href="@Url.Action("index","Home")" class="d-flex align-items-center justify-content-center">
+                                Regresar al inicio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Forgot Password -->
+            </div>
+        </div>
+    </div>
+
+    <!-- / Content -->
+
+    <div class="buy-now">
+        <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
+           target="_blank"
+           class="btn btn-danger btn-buy-now">Upgrade to Pro</a>
+    </div>
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="../assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+    <!-- Vendors JS -->
+    <!-- Main JS -->
+    <script src="../assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
+
